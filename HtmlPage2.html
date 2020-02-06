@@ -1,0 +1,160 @@
+﻿<html>
+
+<head>
+
+    <title>Upload Document</title>
+
+    <link rel="stylesheet" type="text/css" href="../main/Style.css" />
+    <link rel="stylesheet" type="text/css" href="../main/Modal.css" />
+
+    <script type="text/javascript" src="../main/library.js"></script>
+    <script src="../main/jquery.ui.widget.js"></script>
+    <script src="../main/jquery.iframe-transport.js"></script>
+    <script src="../main/jquery.fileupload.js"></script>
+    <script src="../main/bootstrap.min.js"></script>
+    <script src="../main/jquery.min.js"></script>
+
+    <style type="text/css">
+        #ProgressMsg {
+            position: absolute;
+            top: 150px;
+            left: 96px;
+        }
+
+        .fileUpload {
+            position: relative;
+            overflow: hidden;
+            margin: 10px;
+        }
+
+            .fileUpload input.upload {
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin: 0;
+                padding: 0;
+                font-size: 20px;
+                cursor: pointer;
+                opacity: 0;
+                filter: alpha(opacity=0);
+            }
+    </style>
+
+    <script LANGUAGE="javascript">
+
+    //This function generates a unique name in the header so that there is no risk of duplicate files when chunking files with the same name.
+	generateFileUniqueIdentifier = function (data) {
+		var file = data.files[0];
+		var result = file.relativePath || file.webkitRelativePath || file.fileName || file.name;
+		return result.replace(/[^0-9a-zA-Z_-]/img, "") + "-" + file.size + "-" + $.now();
+	};
+
+	//This function adds the x-headers to the header response so the web api knows its a chunked file.
+	$(function () {
+		$('#fileupload')
+			.bind('fileuploadsubmit', function (e, data) {
+				data.headers = $.extend(data.headers,
+					{ "X-File-Identifier": generateFileUniqueIdentifier(data) });
+				data.headers = $.extend(data.headers,
+				   { "database": "GHDemo" });
+				data.headers = $.extend(data.headers,
+				   { "folder": "documents" });
+		});
+	});
+
+	//This function sends the json file data in 2mb chunks to the web api.
+	$(function () {
+		$('#fileupload').fileupload({
+			maxChunkSize: 2000000, // 2 MB
+			url: 'upload/uploaddocument',
+			dataType: 'json',
+			add: function (e, data) {
+				data.context = $('<button/>').text('Upload')
+					.appendTo(document.body)
+					.click(function () {
+						data.context = $('<p/>').text('Uploading...').replaceAll($(this));
+						data.submit();
+					});
+            },
+			done: function (e, data) {
+				alert(data.result);
+			},
+			progressall: function (e, data) {
+				var progress = parseInt(data.loaded / data.total * 100, 10);
+				$('#progress .bar').css(
+					'width',
+					progress + '%'
+				);
+			}
+		}).on('fileuploadchunkfail', function (e, data) { alert(data.errorThrown); });
+	});
+
+    </script>
+
+</head>
+
+<body style="background-color:#FFFFFF;margin:0 0 0 0">
+
+    <form name="Upload_p" action="Upload_p.asp" enctype="MULTIPART/FORM-DATA" method="post">
+
+        <div align="center">
+            <table border="0" cellpadding="0" cellspacing="0" class=tablelook width="100%" bgcolor=#eeeeee>
+                <tr class="FrameBG">
+                    <td height="25" align="middle" width="100%">Select File and Upload</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td height="40" align="center" class="smallbold">
+                                    <table border="0" cellPadding="0" cellSpacing="0">
+                                        <tr>
+                                            <td><input id="UploadFileName" class="fileUploadButton" size="30" placeholder="Choose File" disabled="disabled" /></td>
+                                            <td>
+                                                <!-- The fileinput-button span is used to style the file input field as button -->
+                                                <span class="btn btn-success fileinput-button">
+                                                    <i class="glyphicon glyphicon-plus"></i>
+                                                    <span>Select files...</span>
+                                                    <!-- The file input field used as target for the file upload widget -->
+                                                    <input id="fileupload" type="file" name="files[]">
+                                                </span>
+                                                <br>
+                                                <br>
+                                                <!-- The global progress bar -->
+                                                <div id="progress" class="progress">
+                                                    <div class="progress-bar progress-bar-success"></div>
+                                                </div>
+                                                <!-- The container for the uploaded files -->
+                                                <div id="files" class="files"></div>
+                                                <br>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">
+                                                        <h3 class="panel-title"></h3>
+                                                    </div>
+                                                    <div class="panel-body">
+                                                        <ul></ul>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="30" valign="top" align="center" class=smalltext>
+                                    <INPUT class="btn btn-sm btn-blue" value="Upload" TYPE="button" onClick="javascript:SendFile();">&nbsp;
+                                    <INPUT class="btn btn-sm btn-gray" value="Close" TYPE="button" onClick="javascript:window.close();">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>

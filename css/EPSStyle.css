@@ -1,0 +1,1074 @@
+<Style>
+BODY
+{
+}
+.boldtext
+{
+    FONT-WEIGHT: normal;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+.normaltext
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 13px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+.smalltext
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 13px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+.smalltextEndTime
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #fafab2
+}
+
+.InTimeBox
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #bbddFF
+}
+
+.OutTimeBox
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #FFDDDD
+}
+
+.smallertext
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+.rpttextSmall
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+.rpttextLarge
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+.reporttext
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+A.rpttext:link
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+A.rpttext:hover
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+.smallbold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+.smallerbold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.largerboldtext
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16pt;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+.largeboldtext
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+.largetext
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 14px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+
+.largesymbol
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+
+A.linktext:link
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: blue;
+    FONT-FAMILY: Calibri, Arial;
+    TEXT-DECORATION: underline
+}
+A.linktext:visited
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: blue;
+    FONT-FAMILY: Calibri, Arial;
+    TEXT-DECORATION: underline
+}
+A.smalllinktext:link
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: blue;
+    FONT-FAMILY: Calibri, Arial;
+    TEXT-DECORATION: underline
+}
+A.smalllinktext:visited
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: blue;
+    FONT-FAMILY: Calibri, Arial;
+    TEXT-DECORATION: underline
+}
+A.links
+{
+    FONT-SIZE: 13px;
+    COLOR: blue;
+    FONT-FAMILY: Calibri, arial,helvetica;
+    TEXT-DECORATION: none
+}
+A.links:hover
+{
+    FONT-SIZE: 13px;
+    COLOR: blue;
+    FONT-FAMILY: Calibri, arial,helvetica;
+    TEXT-DECORATION: underline
+}
+
+A.linksSm
+{
+    FONT-SIZE: 11px;
+    COLOR: blue;
+    FONT-FAMILY: Calibri, arial,helvetica;
+    TEXT-DECORATION: none
+}
+A.linksSm:hover
+{
+    FONT-SIZE: 11px;
+    COLOR: blue;
+    FONT-FAMILY: Calibri, arial,helvetica;
+    TEXT-DECORATION: underline
+}
+.blankBorder
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 0px;
+    COLOR: #ff0000;
+    LINE-HEIGHT: normal;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+
+.blankBorderNormal
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: 0px;
+    COLOR: #000000;
+    LINE-HEIGHT: normal;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+
+.blankBorderBoldGreen
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 0px;
+    COLOR: darkgreen;
+    LINE-HEIGHT: normal;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+
+.inputtext
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Calibri, Arial
+}
+A
+{
+    TEXT-DECORATION: none
+}
+A.ma:link
+{
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Calibri, arial;
+    TEXT-DECORATION: underline
+}
+A.ma:active
+{
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Calibri, arial;
+    TEXT-DECORATION: none
+}
+A.ma:visited
+{
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    FONT-FAMILY: Calibri, arial;
+    TEXT-DECORATION: none
+}
+.Y
+{
+    COLOR: #ffffcc
+}
+.R
+{
+    COLOR: #cc0000
+}
+.notlinked
+{
+    FONT-SIZE: 12px;
+    COLOR: navy;
+    FONT-FAMILY: Calibri, Arial;
+    TEXT-DECORATION: none
+}
+
+.smGrayButton
+{
+    padding: 0 10px;    
+    height: 22px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px 3px 3px 3px;
+    border-left-color: #888888;
+    border-right-color: #888888;
+    border-top-color: #888888;
+    border-bottom-color: #888888;
+    background-image : linear-gradient(#999999,#888888);
+    FONT-WEIGHT: normal;
+    COLOR: white;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand
+}
+
+.smButton
+{
+    padding: 0 10px;    
+    height: 22px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px 3px 3px 3px;
+    border-left-color: #eeeeee;
+    border-right-color: ##eeeeee;
+    border-top-color: #eeeeee;
+    border-bottom-color: ##eeeeee;
+    background-image : linear-gradient(rgb(225,225,225),rgb(225,225,225));
+    FONT-WEIGHT: normal;
+    COLOR: black;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand
+}
+
+.smGreenButton
+{
+    padding: 0 10px;    
+    height: 22px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px 3px 3px 3px;
+    border-left-color: #51a351;
+    border-right-color: #51a351;
+    border-top-color: #51a351;
+    border-bottom-color: #387038;
+    background-image : linear-gradient(rgb(91,163,91),rgb(21,163,21));
+}
+
+    .smGreenButton:hover,
+    .smGreenButton:focus,
+    .smGreenButton:active,
+    .smGreenButton.active,
+    .smGreenButton.disabled,
+    .smGreenButton[disabled] {
+        color: #ffffff;
+        background: #72bb6d;
+    }
+
+.smallerGreenButton
+{
+    padding: 0 10px;    
+    height: 22px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px 3px 3px 3px;
+    border-left-color: #51a351;
+    border-right-color: #51a351;
+    border-top-color: #51a351;
+    border-bottom-color: #387038;
+    background-image : linear-gradient(rgb(91,163,91),rgb(21,163,21));
+}
+
+    .smallerGreenButton:hover,
+    .smallerGreenButton:focus,
+    .smallerGreenButton:active,
+    .smallerGreenButton.active,
+    .smallerGreenButton.disabled,
+    .smallerGreenButton[disabled] {
+        color: #ffffff;
+        background: #72bb6d;
+    }
+
+
+.smBlueButton
+{    
+    height: 22px;
+    padding: 0 10px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    background: rgba(237, 20, 61, 0.05);
+    TEXT-ALIGN: center;
+    CURSOR:hand;
+    border: 1px solid #4086CE;
+    border-radius: 3px 3px 3px 3px;
+    border-left-color: #0044cc;
+    border-right-color: #0044cc;
+    border-top-color: #0044cc;
+    border-bottom-color: #002a80;
+    background-image : linear-gradient(rgb(64, 134, 206), rgb(60,60,200));
+}
+
+    .smBlueButton:hover,
+    .smBlueButton:focus,
+    .smBlueButton:active,
+    .smBlueButton.active,
+    .smBlueButton.disabled,
+    .smBlueButton[disabled] {
+        color: #ffffff;
+        background: #0044cc;
+        *background: #003bb3;
+    }
+
+    .smBlueButton:active,
+    .smBlueButton.active {
+        background: #003399 !important;
+    }
+
+.smRedButton
+{
+    height: 22px;
+    padding: 0 10px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand;
+    border: 1px solid crimson;
+    border-radius: 3px 3px 3px 3px;
+    border-left-color: #bd362f;
+    border-right-color: #bd362f;
+    border-top-color: #bd362f;
+    border-bottom-color: #802420;
+    background-image : linear-gradient(rgb(209, 84, 77),rgb(189, 54, 47));
+}
+
+    .smRedButton:hover,
+    .smRedButton:focus,
+    .smRedButton:active,
+    .smRedButton.active,
+    .smRedButton.disabled,
+    .smRedButton[disabled] {
+        color: #ffffff;
+        background: #bd362f;
+    }
+
+    .smRedButton:active,
+    .smRedButton.active {
+        background: #333333 !important;
+    }
+
+.smOrangeButton
+{
+    padding: 0 10px;    
+    height: 22px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand;
+    border: 1px solid rgb(248,148,6);
+    border-radius: 3px 3px 3px 3px;
+    border-left-color: #f89406;
+    border-right-color: #f89406;
+    border-top-color: #f89406;
+    border-bottom-color: #ad6704;
+    background-image : linear-gradient(rgb(251,180,80),rgb(248,148,6));
+}
+
+    .smOrangeButton:hover,
+    .smOrangeButton:focus,
+    .smOrangeButton:active,
+    .smOrangeButton.active,
+    .smOrangeButton.disabled,
+    .smOrangeButton[disabled] {
+        color: #ffffff;
+        background: #f89406;
+        *background: #df8505;
+    }
+
+    .smOrangeButton:active,
+    .smOrangeButton.active {
+        background: #c67605 !important;
+    }
+
+.smLightBlueButton
+{
+    padding: 0 10px;    
+    height: 22px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand;
+    border: 1px solid rgb(47,150,180);
+    border-radius: 3px 3px 3px 3px;
+    border-left-color: #2f96b4;
+    border-right-color: #2f96b4;
+    border-top-color: #2f96b4;
+    border-bottom-color: #1f6377;
+    background-image : linear-gradient(rgb(91,192,222),rgb(47,150,180));
+}
+
+    .smLightBlueButton:hover,
+    .smLightBlueButton:focus,
+    .smLightBlueButton:active,
+    .smLightBlueButton.active,
+    .smLightBlueButton.disabled,
+    .smLightBlueButton[disabled] {
+        color: #ffffff;
+        background: #2f96b4;
+        *background: #2a85a0;
+    }
+
+    .smLightBlueButton:active,
+    .smLightBlueButton.active {
+        background: #24748c !important;
+    }
+
+.smButtonRedFont
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #ff0000;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    CURSOR:hand;
+    TEXT-ALIGN: center
+}
+.smButtonBlueFont
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: #0000ff;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    CURSOR:hand;
+    TEXT-ALIGN: center
+}
+.smButtonGreenFont
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: green;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    CURSOR:hand;
+    TEXT-ALIGN: center
+}
+.smButtonBlueBold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #0000ff;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    CURSOR:hand;
+    TEXT-ALIGN: center
+}
+.smButton2
+{
+    BORDER-RIGHT: #444444 1px solid;
+    BORDER-TOP: #444444 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #444444 1px solid;
+    BORDER-BOTTOM: #444444 1px solid;
+    CURSOR:hand;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif
+}
+.AquaButton
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: black;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;    
+    BACKGROUND-COLOR: #A6F4FF;
+    CURSOR:hand;
+    BORDER: #444444 1px solid; 
+}
+.GreenButton
+{
+    BORDER-RIGHT: #444444 1px solid;
+    BORDER-TOP: #444444 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #444444 1px solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: #444444 1px solid;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    CURSOR:hand;
+    BACKGROUND-COLOR: #04ae0e
+}
+.RedButton
+{
+    BORDER-RIGHT: #444444 1px solid;
+    BORDER-TOP: #444444 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #444444 1px solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: #444444 1px solid;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    CURSOR:hand;
+    BACKGROUND-COLOR: #ff0000
+}
+.GreyButton
+{
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #000000 1px solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: #000000 1px solid;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    CURSOR:hand;
+    BACKGROUND-COLOR: #aaaaaa
+}
+.WhiteButton
+{
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #000000 1px solid;
+    COLOR: #000000;
+    BORDER-BOTTOM: #000000 1px solid;
+    FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+    CURSOR:hand;
+    BACKGROUND-COLOR: #ffffff
+}
+.StaticTabText
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #2d0f00;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+A.tabtext
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #2d0f00;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+A.tttabtext:hover
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #2d0f00;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+.OffTabText
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #888888;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.FrameBG
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    background-color: #3b5866;
+    color: #ffffff;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+.ListBG
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #aaaaaa
+}
+.tablelook
+{
+    BORDER-RIGHT: #cccccc 1px solid;
+    BORDER-TOP: #cccccc 1px solid;
+    BORDER-LEFT: #cccccc 1px solid;
+    BORDER-BOTTOM: #cccccc 1px solid
+}
+.tablelookGrayBG
+{
+    BORDER: #cccccc 1px solid;
+    BACKGROUND-COLOR: #EEEEEE;
+}
+.popBG
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    background-color: #3b5866;
+    color: #ffffff;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+.popNoBG
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.smallGridText
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR:lightgreen;
+    COLOR:blue
+}
+.smallerGridText
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR:green;
+    COLOR:white
+}
+.reportColumns
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR:#aaaaaa;
+    COLOR:white
+}
+.ajaxLoadingIndicator
+{
+background-color: #cc0000; color: #fff; margin:2px; right: 0px;
+}
+#ProgressMsgSpinner
+{
+  color: #fff; 
+  width: 100%;
+  height: 100%;
+  z-index: 500;
+  vertical-align: middle; text-align:center;
+  background-position: center center;
+}
+
+A.linksReorder
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Calibri, arial, verdana, helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+A.linksReorder:hover
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+
+A.ulinks
+{
+    FONT-SIZE: 13px;
+    COLOR: blue;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+
+A.ulinksRed
+{
+    FONT-SIZE: 13px;
+    COLOR: red;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+
+.ReportStatustext
+{
+    FONT-WEIGHT: bold;
+    COLOR: #666666;
+    BACKGROUND-COLOR:#ffffcc;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Calibri, Arial, Helvetica, sans-serif
+}
+
+.smButtonRed
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: red;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center
+}
+
+.smButtonBlue
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: blue;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center
+}
+
+.smButtonGreen
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    COLOR: green;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center
+}
+
+.smButton2
+{
+    BORDER-RIGHT: #444444 1px solid;
+    BORDER-TOP: #444444 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: #444444 1px solid;
+    BORDER-BOTTOM: #444444 1px solid;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif
+}
+.GreenButton2
+{
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #000000 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: #000000 1px solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: #000000 1px solid;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #04ae0e
+}
+
+.ticketSection
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BORDER-TOP: #3b5866 1px solid;
+    BORDER-BOTTOM: #3b5866 1px solid;
+    BACKGROUND-IMAGE: url(../images/popupbg.gif);
+    COLOR: #ff0000;
+    BACKGROUND-REPEAT: repeat;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif
+}
+
+.fileUploadButton
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: black;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand
+}
+
+.PlusButton
+{
+    padding: 0 10px;    
+    height: 18px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    COLOR: white;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px 3px 3px 3px;
+    border-left-color: #888888;
+    border-right-color: #888888;
+    border-top-color: #888888;
+    border-bottom-color: #888888;
+    background-image : linear-gradient(#999999,#888888);
+    FONT-WEIGHT: normal;
+    COLOR: white;
+    FONT-FAMILY: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+    CURSOR:hand
+}
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: Calibri, Arial, Verdana, Helvetica, sans-serif;
+  line-height: 20px;
+  transition: all 0.1s ease-in-out;
+  -webkit-appearance: none;
+}
+
+.btn.btn-red {
+  background-color: #cf4040;
+  border-bottom-color: #b03737;
+}
+
+.btn.btn-red:hover,
+.btn.btn-red:focus {
+  background-color: #b03737;
+}
+
+.btn.btn-red:active {
+  background-color: #912d2d;
+}
+
+.btn.btn-green {
+  background-color: #6aa84f;
+  border-bottom-color: #5a8f43;
+}
+
+.btn.btn-green:hover,
+.btn.btn-green:focus {
+  background-color: #5a8f43;
+}
+
+.btn.btn-green:active {
+  background-color: #4a7537;
+}
+
+.btn.btn-blue {
+  background-color: #3d85c6;
+  border-bottom-color: #3472a8;
+}
+
+.btn.btn-blue:hover,
+.btn.btn-blue:focus {
+  background-color: #3472a8;
+}
+
+.btn.btn-blue:active {
+  background-color: #2b5d8a;
+}
+
+.btn.btn-gray {
+  background-color: #999999;
+  border-bottom-color: #808080;
+}
+
+.btn.btn-gray:hover,
+.btn.btn-gray:focus {
+  background-color: #808080;
+}
+
+.btn.btn-gray:active {
+  background-color: #666666;
+}
+
+.btn.btn-sm {
+  padding: 0 10px;
+}
+
+.btn.btn-lg {
+  padding: 6px 10px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:active:focus {
+  outline: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:active {
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-bottom-color: transparent;
+}
+
+.btn:disabled {
+  border-color: transparent;
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.helpmodalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(192,192,192,0.1);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 1200ms ease-in;
+	-moz-transition: opacity 1200ms ease-in;
+	transition: opacity 1200ms ease-in;
+	pointer-events: none;
+}
+
+.helpmodalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.helpmodalDialog > div {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 1% auto;
+	padding: 5px 5px 13px 5px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #fff);
+	background: -webkit-linear-gradient(#fff, #fff);
+	background: -o-linear-gradient(#fff, #fff);
+}
+.helpShowVideoBox > div {}
+	width: 320px; 
+	height: 240px; 
+	margin:0 auto; 
+	overflow:auto; 
+	border-style: solid; 
+	border-color: #969699; 
+	border-width: 2px; 
+}
+ #HelpVideoBox { 
+	width: 320px; 
+	height: 240px; 
+	margin:0 auto; 
+	overflow:auto; 
+	border-style: solid; 
+	border-color: #cccccc; 
+	border-width: 1px; 
+}
+
+ #HelpContentBox { 
+	width: 100%; 
+	height: 665px; 
+	overflow:auto; 
+	border-style: solid; 
+	border-color: #cccccc; 
+	border-width: 0px; 
+}
+#helpusercontent { 
+	padding: 5px; 
+}
+
+#helpadmincontent { 
+	padding: 5px; 
+	text-align:center; 
+}
+#helpuserdiv { 
+	padding-bottom: 4em; 
+}
+
+#helpuserfooter { 
+	clear: both; 
+	position: relative; 
+	z-index: 10; 
+	height: 4em; 
+	margin-top: -4em; 
+	text-align: center; 
+	height: 4em;
+}
+
+#helpadmindiv { 
+	padding-bottom: 4em; 
+	text-align:center 
+}
+
+#helpadminfooter { 
+	clear: both; 
+	position: relative; 
+	z-index: 10; 
+	height: 4em; 
+	margin-top: -4em; 
+	text-align: center; 
+	height: 4em;
+}
+
+
+</style>
